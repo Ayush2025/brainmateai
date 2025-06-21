@@ -1,0 +1,148 @@
+Build a full SaaS web application named BrainMate AI that allows educators to create powerful, interactive AI-powered tutors trained on their own course material. This platform should include subscription management, authentication, intelligent chatbot features, animated avatars, and rich teaching modules. The tutor must talk, animate, and teach like a real assistant.
+
+✅ Core Platform Capabilities
+🔐 1. User Authentication
+Signup, login, logout
+
+Email/password and Google OAuth
+
+Email verification
+
+Forgot/reset password
+
+Secure role-based access (admin, educator, student)
+
+💳 2. Subscription & Licensing System
+3 plans with real payment gateway integration:
+
+Free (1 bot, basic features)
+
+Pro – ₹499/mo (5 bots, analytics, branding)
+
+Premium – ₹1499/mo (unlimited bots, 3D tutor, voice branding, flashcards)
+
+Monthly billing, invoices, and plan switching
+
+Restrict features by plan level
+
+📚 3. TutorBot Creation & Upload
+Educators upload PDFs, DOCX, PPTs, Text, or YouTube links
+
+AI trains custom chatbot models on the content
+
+Each TutorBot has a unique name, subject, and branding
+
+🤖 4. AI Chat Interface + Tutor Features
+Each TutorBot gets its own chat screen
+
+Chatbot is:
+
+Context-aware
+
+Trained only on uploaded content
+
+Explains in deep detail with examples
+
+Can adapt tone: formal, friendly, casual
+
+Supports multilingual replies
+
+Students ask questions, tutor answers like a real assistant
+
+Option to ask for summary, quiz, or full lecture
+
+🧑‍🏫 5. 3D Animated Lip-Synced Tutor Avatar
+On tutor reply, a 3D character (human-like male/female AI avatar) appears in bottom-left corner
+
+The avatar:
+
+Animates in real time
+
+Lip-syncs to spoken content using text-to-speech
+
+Matches emotions (happy, excited, serious) based on topic tone
+
+Has customizable appearance (Pro users)
+
+📖 6. Live Visual Feedback
+While the tutor speaks:
+
+Text appears word-by-word on the page with scrolling effect
+
+Highlights key terms, definitions, formulas, or facts
+
+Shows diagrams (if available in content)
+
+Autoscrolls like a real tutor lesson
+
+🎓 7. Teaching Modes
+Lecture Mode: Long explanations with diagrams and summaries
+
+Flashcard Mode: Auto-create flashcards from uploaded content
+
+Quiz Mode: Auto-generate multiple-choice questions or fill-in-the-blanks
+
+Example Mode: Explains with real-world applications
+
+Doubt Solver: Real-time QA for students with detailed steps
+
+👨‍🏫 8. Educator Dashboard
+Upload/manage tutors
+
+See engagement analytics: top questions, session time, user feedback
+
+Enable/disable specific bots
+
+Set bot access: public, private, password-protected
+
+Branding: add logo, voice, tutor name, custom greeting
+
+🧑‍🎓 9. Student Experience
+Students can use shared tutor links
+
+No sign-in needed for public links
+
+Full chat interface with tutor speaking, animating, and teaching in real time
+
+Voice input option
+
+Get notes exported to PDF
+
+🧠 10. Extra Exceptional Features
+Tutor detects if student didn’t understand → gives simpler or more detailed explanation
+
+Voice + Text feedback side-by-side
+
+Add background music or sound effects (Premium)
+
+Tutor can explain in steps, like a math/physics teacher
+
+Supports subject-specific knowledge plugins (e.g., LaTeX for math, code format for CS)
+
+Real-time student progress tracking
+
+Daily/Weekly engagement report to educators
+
+📊 11. Admin Dashboard
+Manage users, plans, payments
+
+Flagged content moderation
+
+Usage analytics, tutor performance
+
+Control avatar library and language models
+
+🧰 12. Final Delivery Requirements
+The platform should be fully built and deployable
+
+Include backend, frontend, and AI integration
+
+UI should be modern, animated, and beautiful (with dark/light mode)
+
+TutorBot must feel like a real digital teacher
+
+All code must be clean, scalable, and production-ready
+
+Include README with full setup + deployment guide
+
+Do not hallucinate or allow the tutor to answer things beyond the educator’s material unless asked specifically to. Make the entire experience immersive, deeply educational, and interactive — like a virtual professor built from a teacher’s brain.
